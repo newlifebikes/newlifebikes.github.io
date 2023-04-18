@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+}
+
+.taxexempt {
+  float: left;
+  width: 100%;
+}
+
+.banner {
+  background-color:#ffffff;
+  padding:15px;
+  text-align:center;
+  width: 50%;
+  float: left;
+}
+
+.Donate_Button {
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.Donate_Button button{
+  font-size: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #4FA8E0;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+/*#E54154 */
+
+.Donate_Button button:hover{
+  background-color: #ffffff;
+  border: 2px solid #4FA8E0;
+  color: black;
+}
+
+
+.banner img {
+  width:35%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4FA8E0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 18px 36px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #1A94E0;
+  color: #ffffff
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #4FA8E0;
+  display: inline-block;
+}
+
+.navbar a{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar {
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+.Our_Mission {
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.Pads_Img {
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Pads_Img img{
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.FHCC_Img {
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 20px 20px;
+  margin: 0px;
+}
+
+.FHCC_Img img{
+  max-width: 95%;
+  max-height: 95%;
+}
+
+
+.What_We_Do {
+  /*was #e5e5e5 */
+  background-color: #4FA8E0;
+  /*color: #E54154*/
+  float: left;
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.What_We_Do h2, .What_We_Do p {
+  color: white;
+}
+
+
+.About_The_Founder {
+  float: left;
+  padding: 0 20px;
+  width: 50%;
+}
+
+.About_The_Founder p1 {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.Founder_Image {
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.Founder_Image img {
+  max-width:85%;
+  max-height:65%;
+}
+
+.Donate_Today {
+  float: left;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Contact, .Financial_Donations, .Other_Donations{
+  float: left;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  /*was #e5e5e5 */
+  text-align: center;
+}
+.paypal {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.paypal button{
+  background-color: #4FA8E0;
+  border: 2px solid white;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 30px;
+  cursor: pointer;
+        }
+
+.paypal button:hover{
+  background-color: #ffffff;
+  border: 2px solid #4FA8E0;
+  color: black;
+}
+
+.Instagram {
+  float: left;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.Instagram p1 {
+  font-size: 25px;
+}
+
+.Insta_Logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Insta_Logo img {
+  margin-top: 20px;
+  width: 10%;
+  height: auto;
+}
+
+@media only screen and (max-width: 850px) {
+  /* For mobile phones: was 620px*/
+  .Our_Mission, .What_We_Do, .About_The_Founder, .Donate_Today {
+    width: 100%;
+  }
+
+  .Founder_Image, .Pads_Img, .banner, .FHCC_Img{
+    width: 100%;
+  }
+  nav ul     { display: none; }
+  nav .navbar { display: inline-block; }
+  .Donate_Button {display: none}
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: #c2c2c2;
+}
